@@ -9,7 +9,6 @@ valor4 = valor4.to_f
 
 if valor1 > valor2 and valor1 > valor3 and valor1 > valor4
   puts "Este valor es el mayor #{valor1}"
-    if valor4 == nil
 
   elsif valor2 > valor1 and valor2 > valor3 and valor2 > valor4
       puts "Este valor es mayor #{valor2}"
