@@ -6,23 +6,23 @@ valor4 = ARGV[3].to_f
 
 if ARGV[3]==nil
 
-  if valor1 > valor2 and valor1 > valor3
+  if valor1 >= valor2 and valor1 >= valor3
     puts "Este valor es el mayor #{valor1}"
-    elsif valor2 > valor1 and valor2 > valor3
+    elsif valor2 >= valor1 and valor2 >= valor3
       puts "Este valor es mayor #{valor2}"
     else
-      valor3 > valor1 and valor3 > valor2
+      valor3 >= valor1 and valor3 >= valor2
       puts "Este valor es mayor #{valor3}"
   end
 else
-  if valor1 > valor2 and valor1 > valor3 and valor1 > valor4
+  if valor1 >= valor2 and valor1 >= valor3 and valor1 >= valor4
     puts "Este valor es el mayor #{valor1}"
-    elsif valor2 > valor1 and valor2 > valor3 and valor2 > valor4
+    elsif valor2 >= valor1 and valor2 >= valor3 and valor2 >= valor4
         puts "Este valor es mayor #{valor2}"
-    elsif valor3 > valor1 and valor3 > valor2 and valor3 > valor4
+    elsif valor3 >= valor1 and valor3 >= valor2 and valor3 >= valor4
         puts "Este valor es mayor #{valor3}"
     else
-      valor4 > valor1 and valor4 > valor2 and valor4 > valor3
+      valor4 >= valor1 and valor4 >= valor2 and valor4 >= valor3
       puts "Este valor es mayor #{valor4}"
     end
 end
